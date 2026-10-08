@@ -1,3 +1,9 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f5f7; 
+    margin: 0;
+    padding: 40px;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -261,3 +267,48 @@ footer {
   flex-direction: column;
   gap: 1;
 }
+.footer-subscribe p {
+            margin: 0;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .footer-subscribe-form {
+            display: flex;
+            gap: 10px;
+        }
+
+        .footer-subscribe input {
+            padding: 10px 15px;
+            border: 2px solid #ffd700;
+            border-radius: 25px;
+            outline: none;
+            font-size: 14px;
+            background-color: #fff;
+        }
+
+        .footer-subscribe button {
+            background-color: #fff;
+            border: 2px solid #b1eb34;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+
+        }
+
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #ddd; 
+            padding-top: 20px;
+            
+            gap: 15px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 20px;
+        }
