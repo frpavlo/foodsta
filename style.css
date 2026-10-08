@@ -1,0 +1,263 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style: none;
+}
+.logo {
+  width: 100px;
+  max-height: 100px;
+}
+.highlight {
+  color: #bbf330;
+  text-decoration: underline;
+}
+.nav-list {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 28px 0;
+}
+.nav-btn,
+.hero-btn,
+.offerings-btn {
+  padding: 10px 22px;
+  background-color: #bbf330;
+  border-radius: 30px;
+  border: #bbf330 1px solid;
+  width: 125px;
+  cursor: pointer;
+}
+.hero,
+.offerings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-info-container,
+.offerings-info-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 502px;
+}
+.hero-title,
+.offerings-title {
+  font-size: 48px;
+  padding-bottom: 28px;
+}
+.hero-info,
+.offerings-info {
+  padding-bottom: 40px;
+}
+.offerings-btn {
+  background-color: white;
+}
+.offerings-list {
+  display: flex;
+  gap: 67px;
+  align-items: center;
+  padding-bottom: 32px;
+}
+.favourites-title {
+  font-size: 42px;
+  text-align: center;
+}
+.favourites-info {
+  text-align: center;
+}
+.favourites-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.header-section {
+  margin-bottom: 40px;
+}
+
+.header-section h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.header-section p {
+  color: #555;
+  font-size: 16px;
+}
+
+.reviews-container {
+  display: flex;
+  gap: 80px;
+  margin-bottom: 80px;
+}
+
+.review-card {
+  flex: 1;
+  max-width: 500px;
+}
+
+.stars {
+  color: #ffc107;
+  font-size: 18px;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.review-text {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.avatar {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author-info {
+  border-left: 2px solid #8bc34a;
+  padding-left: 15px;
+}
+
+.author-name {
+  font-size: 16px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.author-title {
+  color: #666;
+  font-size: 14px;
+  margin: 2px 0 0 0;
+}
+
+.subscribe-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  background: transparent;
+  padding: 40px 0;
+  margin-bottom: 60px;
+}
+
+.subscribe-content {
+  flex: 1;
+  max-width: 550px;
+}
+
+.subscribe-content h2 {
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.subscribe-content p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.email-input {
+  flex: 1;
+  padding: 14px 20px;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  border: 2px solid #ffd700;
+  border-radius: 50px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.email-input:focus {
+  border-color: #ffcc00;
+}
+
+.email-input::placeholder {
+  color: #888;
+}
+
+.subscribe-btn {
+  background-color: #b1eb34;
+  color: #111;
+  font-weight: bold;
+  border: none;
+  padding: 14px 30px;
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+.subscribe-btn:hover {
+  background-color: #9ecc2a;
+}
+
+.subscribe-image-box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.banana-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+footer {
+  background-color: transparent;
+  padding: 20px 0;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.footer-logo img {
+  height: 45px;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 25px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.footer-subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 1;
+}
